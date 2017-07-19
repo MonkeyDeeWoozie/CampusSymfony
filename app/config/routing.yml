@@ -1,12 +1,16 @@
+comment:
+    resource: "@CommentBundle/Resources/config/routing.yml"
+    prefix:   /comment
+
 test:
     resource: "@TestBundle/Controller/"
     type:     annotation
-    prefix:   /
+    prefix:   /test
 
 post:
     resource: "@PostBundle/Controller/"
     type:     annotation
-    prefix:   /
+    prefix:   /post
 
 app:
     resource: '@AppBundle/Controller/'
