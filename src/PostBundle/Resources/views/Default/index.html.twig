@@ -1,2 +1,16 @@
-<h3><a href="{{ path('list') }}">Liste des posts</a></h3>
-<h3>Créer un nouveau post</h3>
+{% extends 'PostBundle::layout.html.twig' %}
+
+{% block title %}
+
+    Home Sweet Home
+
+{% endblock %}
+
+{% block body %}
+
+    <h2>Bienvenue sur la création de post</h2>
+
+    <p><a href="{{ path('list') }}">Liste des posts</a></p>
+    <p>Créer un nouveau post</p>
+
+{% endblock %}
